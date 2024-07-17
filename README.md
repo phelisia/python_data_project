@@ -195,4 +195,4 @@ plt.show()
     - Cloud:
     Go has a median salary of around $90K but is in lower demand, indicating niche expertise can be valuable.
     - Technology:
-    General technology skills like SQL and Excel remain essential.
+    General technology skills like Programming and analyst tools followed by Databases remain essential.
