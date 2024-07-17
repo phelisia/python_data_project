@@ -25,7 +25,7 @@ For my analysis into the Data Analyst jobs market, I harnessed the power of seve
 ## 1 What are the most demanded skills for the top 3 most popular data roles?
 To find the most demanded skills for the top 3 most popular data roles, I filtered out those positions by which ones were the most popular, and acquired the top 5 skills for these top 3 roles. This script highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on my taget role.
 
-View my notbook with detailed steps here: [2_Skill_Demand.ipynb](3_Project\2_skills_count.ipynb)
+View my notbook with detailed steps here: [2_Skill_Demand.ipynb](3_Project/2_skills_count.ipynb)
 
 ### Visualize Data
 ```python
@@ -46,7 +46,7 @@ for i, job_title in enumerate(job_titles):
 ```
 
 #### Results
-![Visualization for Top Skills for Data Nerd](3_Project\images\skill_demand_all_data_roles.png)
+![Visualization for Top Skills for Data Nerd](3_Project/images/skill_demand_all_data_roles.png)
 
 ### Insights
 - Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
@@ -71,7 +71,7 @@ for i in range (5):
     plt.text(11.2,df_plot.iloc[-1,i],df_plot.columns[i])
 ```
 #### Results
-![Trending Top Sills for Data Analyst in the US](3_Project\images\skill_trend_da.png)
+![Trending Top Sills for Data Analyst in the US](3_Project/images/skill_trend_da.png)
 
 ### Insights:
 - SQL  remains the most consistently  demanded skill throught the year, although it shows a gradual decrease in demand
@@ -96,7 +96,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 ```
 ### Results
-![Salary Distribution of Data Jobs in the Us](3_Project\images\salary.png)
+![Salary Distribution of Data Jobs in the Us](3_Project/images/salary.png)
 
 ### Insights
 - There is a significant variation in salary ranges across different job titles. - Senior Data Scientist positions tend to have the highest salary potential, reaching up to $600K, highlighting the high value placed on advanced data and mathematical skills, as well as industry experience.
@@ -118,7 +118,7 @@ ax[1].legend().remove()
 ax[0].set_xlim(ax[0].get_xlim())
 ```
 ### Results
-![salary Analysis in the us](3_Project\images\skills_demand.png)
+![salary Analysis in the us](3_Project/images/skills_demand.png)
 
 
 
