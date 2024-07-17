@@ -175,7 +175,7 @@ plt.tight_layout()
 plt.show()
 ```
 ### Results
-![Most Optimal Sills for Data Analyst in the US](3_Project\images\optimal.png)
+![Most Optimal Sills for Data Analyst in the US](3_Project/images/optimal.png)
 
 ## Insights:
 - High Demand, Lower Salary:
